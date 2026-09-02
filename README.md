@@ -1,6 +1,6 @@
 # LokiCheckout_Fi
 
-**This Magento 2 module is an add-on package for the country `Fi`.
+**This Magento 2 module is an add-on package for Finland.
 
 ## Installation
 Install this package via composer:

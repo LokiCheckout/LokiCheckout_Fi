@@ -22,16 +22,16 @@
         <referenceBlock name="loki-checkout.shipping.address.postcode">
             <arguments>
                 <argument name="field_label" xsi:type="string" translate="true">Postal code</argument>
-                <argument name="placeholder" xsi:type="string">1234</argument>
+                <argument name="placeholder" xsi:type="string">00100</argument>
                 <argument name="field_attributes" xsi:type="array">
-                    <item name="x-mask" xsi:type="string">9999</item>
+                    <item name="x-mask" xsi:type="string">99999</item>
                 </argument>
             </arguments>
         </referenceBlock>
 
         <referenceBlock name="loki-checkout.shipping.address.region">
             <arguments>
-                <argument name="field_label" xsi:type="string" translate="true">State</argument>
+                <argument name="field_label" xsi:type="string" translate="true">Municipality</argument>
             </arguments>
         </referenceBlock>
 
@@ -55,17 +55,17 @@
 
         <referenceBlock name="loki-checkout.billing.address.postcode">
             <arguments>
-                <argument name="field_label" xsi:type="string" translate="true">Postcode</argument>
-                <argument name="placeholder" xsi:type="string">1234</argument>
+                <argument name="field_label" xsi:type="string" translate="true">Postal code</argument>
+                <argument name="placeholder" xsi:type="string">00100</argument>
                 <argument name="field_attributes" xsi:type="array">
-                    <item name="x-mask" xsi:type="string">9999</item>
+                    <item name="x-mask" xsi:type="string">99999</item>
                 </argument>
             </arguments>
         </referenceBlock>
 
         <referenceBlock name="loki-checkout.billing.address.region">
             <arguments>
-                <argument name="field_label" xsi:type="string" translate="true">State</argument>
+                <argument name="field_label" xsi:type="string" translate="true">Municipality</argument>
             </arguments>
         </referenceBlock>
     </body>
